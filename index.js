@@ -7,4 +7,4 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(5000, console.log('setup server'));
+app.listen(PORT, console.log('setup server'));
